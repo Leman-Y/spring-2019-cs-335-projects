@@ -6,6 +6,9 @@ I built a C++ application, which allowed users to query NYC Open Data (2015 Stre
 ## How To Run?
 1. Download repository
 2. Usage: type in ./goldversion input_file command_file
+
 	There are many commands you can run on the input file like list all trees, list all trees in a zipcode, tree info, etc
+
 	```./goldversion input_file command_file```
+	
 	```./goldversion 100_trees.csv ./commandfiles/listall_cmmd_01```
