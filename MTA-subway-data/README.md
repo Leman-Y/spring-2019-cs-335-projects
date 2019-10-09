@@ -3,6 +3,9 @@
 ## Summary 
 Purpose of this project was to utilize MTA subway data and create a useful application out of it. I developed a C++ program where I implemented my own hash table and used disjoint sets to provide the user of the closest entrances and exits of stations, which entrances are part of the same stations, which stations are transfer points, and which stations and trains are closest to a given GPS location through 64 bit numbers and the Haversine Formula. In one sentence, my project simulates Google Maps for transportation specifically the subway and allows users to find the nearest subway stations
 
+## Want more info?
+More information can be found in the project-description.pdf
+
 ## How To Run?
 1. Download repository
 2. Usage: type in `g++ -o project -std=c++11 main.cpp subway_portal.cpp subway_station.cpp subway_system.cpp subway_route.o gps.cpp _hash_item.cpp hash_table.cpp` to create the executable file
