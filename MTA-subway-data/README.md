@@ -8,7 +8,7 @@ Purpose of this project was to utilize MTA subway data and create a useful appli
 2. Usage: type in `g++ -o project -std=c++11 main.cpp subway_portal.cpp subway_station.cpp subway_system.cpp subway_route.o gps.cpp _hash_item.cpp hash_table.cpp` to create the executable file
 3. Execute ./project 
 
-	There are many commands you can run on the input file like list all stations, list station portals at a given location, list available subway routes at a given station, and list nearest portal from a given GPS coordinate
+	There are many commands you can run on the input file like list all stations, list station portals at a given location, list available subway routes at a given station, and list nearest portal from a given GPS coordinate. All command files are in the commandfiles folder.
 
 	```./project subwaydata_newstationnames.csv ./commandfiles/nearportal01_cmmd```
 
